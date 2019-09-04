@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+font-family: Verdana, sans-serif;
+background-color: #cccccc;
+}
+h1 span{
+    font-size: 60px;
+    color: #721c24;
+}
+
+/************ Menu 1 & Menu 2***********/
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+    //background-color: #0033ff;
+}
+li{
+//float: left;
+display: inline-block;
+}
+li a{
+display: block;
+text-align: center;
+padding: 0,10px,0,0;
+color: white;
+text-decoration: none;
+}
+li a:hover{
+background-color: #0033ff;
+    z-index: 10;
+}
+
+
+h1{
+   
+    text-align: center;
+    color: #0033ff;
+   
+}
+.search{
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+div.fixed li a{
+    padding: auto;
+    border-radius: 30%;
+}
+
+
+/*********************Institution Name And logoInstitution Name And logo*********************/
+
+.logo:before{
+    content: url("image/logo.jpg");
+}
+
+
+          /***********Slide Section**********/
+            
+            
+          
+/**********************Gallery Section********************/
+
+*{
+                margin: 0;
+                padding: 0;
+            }
+            .header{
+                background-color: black;
+                width: 100%;
+                height: 50px;
+               
+            }
+            #price{
+                color: #fff;
+                float: right;
+                padding: 30px;
+                margin-top: -15px;
+                
+            }
+
+                
+            #select{
+                color: white;
+                float: right;
+                padding: 30px;
+                margin-top: -15px;
+            }
+            .products .app{
+                box-sizing: border-box;
+                padding-bottom: 20px;
+            }
+            .product{
+                width: 300px;
+            }
+            .products{
+                padding: 0;
+            }
+            .nur{
+                border: 1px solid #fff;
+                margin: 2px;
+                text-align: center;
+            }
+            .nur img{
+                margin-left: 3%;
+            }
+            .products .app img{
+                width: 100%;
+                
+                -webkit-transition: all 0.2s linear,0.3s;
+                -moz-transition: all 0.2s linear,0.3s;
+                -o-transition: all 0.2s linear,0.3s;
+                -ms-transition: all 0.2s linear,0.3s;
+                -transition: all 0.2s linear,0.3s;        
+
+            }
+            .products .product:hover img{
+                transform: scale(1.05, 1.05);
+            } 
+            .products .product{
+                position: relative;
+                display: block;
+                overflow: hidden;
+            }
+            .products .icon{
+                position: absolute;
+                top: 30%;
+                left: 45%;
+                width: 30px;
+                height: 30px; line-height: 30px;
+                margin: -20px auto 0 0;
+                
+                
+            }
+            .products a{
+                color: #fff;
+                background: #3333ff;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                display: inline-block;
+                position: relative;
+              /*  -webkit-transition: all 0.2s linear,0.3s;
+                -moz-transition: all 0.2s linear,0.3s;
+                -o-transition: all 0.2s linear,0.3s;
+                -ms-transition: all 0.2s linear,0.3s;
+                -transition: all 0.2s linear,0.3s;        
+            }
+        /*    .products .imageOverlay{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.5);
+                display: block;
+                top: 0;
+                left: 0;
+                opacity: 1;
+                
+                -webkit-transition: all 0.02s linear,1s;
+                -moz-transition: all 0.2s linear,1s;
+                -o-transition: all 0.2s linear,1s;
+                -ms-transition: all 0.2s linear,1s;
+                -transition: all 0.2s linear,1s;
+                */
+            }
+            .products .product:hover .imageOverlay{
+                opacity: 0;
+                
+            }
+            
+            .products .openButton{
+                float: left;
+                left: -200px;
+               
+            }
+            .products .product:hover .openButton{
+                left: 0;
+            }   
+
+
+ 
+
+
+
+            /***************Pizza Gallery*************/
+
+
+
+            .valo .app{
+                box-sizing: border-box;
+                padding-bottom: 20px;
+            }
+            .valo{
+                padding: 0;
+            }
+            .ami{
+                width: 175px;
+            }
+            .valo .app img{
+                width: 100%;
+                
+                //-webkit-transition: all 0.2s linear,0.3s;
+                //-moz-transition: all 0.2s linear,0.3s;
+                //-o-transition: all 0.2s linear,0.3s;
+                //-ms-transition: all 0.2s linear,0.3s;
+                //-transition: all 0.2s linear,0.3s;        
+
+            }
+            .valo .ami:hover img{
+                //transform: scale(1.05, 1.05);
+            } 
+            .valo .ami{
+                position: relative;
+                display: block;
+                overflow: hidden;
+            }
+            .valo .icon{
+                position: absolute;
+                top: 30%;
+                left: 45%;
+                width: 30px;
+                height: 30px; line-height: 30px;
+                margin: -20px auto 0 0;
+                
+                
+            }
+            .valo a{
+                color: #fff;
+                background: #3333ff;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                display: inline-block;
+                position: relative;
+              /*  -webkit-transition: all 0.2s linear,0.3s;
+                -moz-transition: all 0.2s linear,0.3s;
+                -o-transition: all 0.2s linear,0.3s;
+                -ms-transition: all 0.2s linear,0.3s;
+                -transition: all 0.2s linear,0.3s;        
+            }
+        /*    .valo .imageOverlay{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.5);
+                display: block;
+                top: 0;
+                left: 0;
+                opacity: 1;
+                
+                -webkit-transition: all 0.02s linear,1s;
+                -moz-transition: all 0.2s linear,1s;
+                -o-transition: all 0.2s linear,1s;
+                -ms-transition: all 0.2s linear,1s;
+                -transition: all 0.2s linear,1s;
+                */
+            }
+            .valo .ami:hover .imageOverlay{
+                opacity: 0;
+                
+            }
+            
+            .valo .openButton{
+                float: left;
+                left: -200px;
+               
+            }
+            .valo .ami:hover .openButton{
+                left: 0;
+            }  
+            .bogra{
+                float: right;
+            }
+
+           /*********************Magnifing Effect*************************/
+
+
+
+
+           * {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position:relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+
+
+            /********************My Cart******************/
+            
+            
+
+            
+
+            #tc{
+                background-color: grey;
+                color: #fff;
+
+            }
+            .tr{
+                width: 100%;
+            }
+        
+
+            /***************Footer Section**************/
+            
+            
+            
+            .ab{
+                width: 100%;
+                background-color: gray;
+                padding: 2%;
+            }
+            .ab h1{
+                color: rgb(141, 35, 35);
+
+            }
+            .abc{
+                width: 100%;
+                height: 70%;
+                
+            }
+            .pa{
+                width: 50%;
+                height: 40%;
+                margin-left: 20%;
+                padding: 1%;
+            }
+            #foot{
+                width: 100%;
+               background-color: #0033ff;
+            }
+            
+            
+                      
+            /****************craete an account***************/
+            #account{
+                margin-top: 10%;
+                margin-bottom: 10%;
+            }
+            
+            
+            .account li a{
+                color: black;
+                text-decoration: none;
+                
+                    
+            }
+            .account li a:hover{
+                color: red;
+                background: none;
+            }
+            
+         
